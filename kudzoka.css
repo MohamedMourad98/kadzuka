@@ -1,0 +1,400 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ 
+
+}
+header{
+        background-image: url(imgs/blue_bg.png);
+         background-position: center; 
+         background-repeat: no-repeat; 
+         background-size: cover;
+         width: 100%;
+         height:800px;
+         /* overflow: hidden; */
+         
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    position: relative;
+}
+nav .left{
+    display: flex; 
+    align-items: center;  
+    justify-content: center;
+    position: relative;
+}
+nav .left a::before{
+    content: " ";
+    position: absolute;
+    width: 0%;
+    left: 0%;
+    height: 3px;
+    background-color: rgb(162, 0, 255);
+    top: 30px;
+    transition: .5s;
+}
+nav .left a:hover::before{
+    width: 90px;
+    margin-left: 15px;
+}
+nav .left .aa:hover::before{
+    width: 60px;
+    margin-left: 15px;
+}
+nav .left .bb:hover::before{
+    width: 110px;
+    margin-left: 15px;
+}
+
+nav .left img{
+    width: 150px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+    font-size: 20px;
+    padding: 5px 20px;
+    transition: .3s;
+    position: relative;
+}
+nav .right{
+    position: relative;
+}
+
+nav .right img{
+    cursor: pointer;
+    width: 150px;
+    /* margin: 0px 15px; */
+    padding: 15px;
+}
+nav .right a{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    right:30px; 
+}
+nav .right a:hover{
+   color: blueviolet;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin-left: 100px; 
+    margin-top: 80px;
+    overflow-x: hidden; 
+
+}
+.about .text{
+ margin-bottom: 150px;
+ width: 500px;
+ font-family: sans-serif;
+ position: relative;
+}
+.about .text h1{
+    font-size: 45px;
+    color: rgb(87, 85, 85);
+    width: 100%;
+
+}
+.about .text span{
+    color: blueviolet;
+}
+.about .text p{
+    font-size: 22px;
+    margin-top: 20px;
+    color: rgb(151, 148, 148);
+}
+.imgs .one{
+    width: 600px;   
+}
+.imgs .two{
+    width: 350px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+.imgs .three{
+    width: 400px;
+    position: absolute;
+    top: 95%;
+    left: 60%;
+} 
+.imgs .four{
+    width: 100%;
+    position: absolute;
+    top: 650px;
+    left: -300px;
+}
+
+
+
+/* -----------------------end header--------------------- */
+
+
+/* -----------------------start sec 1--------------------- */
+.sec1{
+    margin: 100px 150px 0px;
+    /* background-color: red; */
+}
+.sec1 .one{
+    display: flex;
+    /* justify-content: space-evenly; */
+    position: relative;
+}
+.sec1 .one .super{
+    width: 300px;
+    text-align: center;
+}
+.super img{
+    width: 170px;
+    margin: 10px 0px;
+}
+.super h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(87, 85, 85);
+    font-family: sans-serif;
+}
+.super p{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(87, 85, 85);
+    font-family: sans-serif;
+}
+.one .real{
+    width: 340px;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+}
+.real img{
+    width: 170px;
+    margin: 10px 0px;
+}
+.real h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(87, 85, 85);
+    font-family: sans-serif;
+}
+.real p{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(87, 85, 85);
+    font-family: sans-serif;
+}
+
+.pin{
+    position: relative;
+    top: -265px;
+    left: 150px;
+    z-index: -1;
+}
+
+/* ---------------------------------end sec 1-------------------------------- */
+
+
+/* ---------------------------------start sec 2-------------------------------- */
+.sec2{
+    margin-top:-22%;
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 200px;
+}
+.sec2 .present{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(87, 85, 85);
+}
+.sec2 .present p{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(87, 85, 85);
+}
+.sec2 .present h3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(87, 85, 85);
+}
+.sec2 .kudzoka div{
+    position: relative;
+    top: -55%;
+    left: 25%;
+   
+}
+.kudzoka div p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.kudzoka div h2{
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+/* ---------------------------------end sec 2-------------------------------- */
+
+/* ---------------------------------start sec 3-------------------------------- */
+.sec3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding: 0px 150px;
+}
+.sec3 .left i{
+    margin-left: 50px;
+    color: rgb(87, 85, 85);
+}
+.sec3 .right i{
+    margin-right: 50px;
+    color: rgb(87, 85, 85);
+}
+.sec3 .midlle{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(87, 85, 85);
+    position: relative;
+    top: -80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.midlle div{
+    width: 210px;
+    text-align: center;
+}
+.midlle div h4{
+    margin-bottom: 15px;
+}
+/* ---------------------------------end sec 3-------------------------------- */
+
+/* ---------------------------------footer-------------------------------- */
+footer{
+    background-image: url(imgs/Group\ 1131.png);
+     background-repeat: no-repeat; 
+    background-size: 115%; 
+    margin-top: -5%;
+    margin-left: -150px;
+    margin-top: -15%;
+    height:100vh; 
+    /* margin-left: 100px; */
+    position: relative;
+} 
+
+footer .sec4{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+footer .sec4 .contact .store{
+    display: flex;
+    position: relative;
+    top: 400px;
+    margin-left: 350px;
+   
+}
+
+footer .sec4 .contact .store:hover{
+    cursor: pointer;
+}
+footer .sec4 .contact .one{
+    padding-right: 20px;
+    margin-top: 20px;
+}
+footer .sec4 .contact .store .big{
+    width: 120px;
+}
+footer .sec4 .contact .store .small{
+    width: 20px;
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+footer .sec4 .contact .store .one p{
+    color: blueviolet;
+    position: absolute;
+    text-align: center;
+    left: -110px;
+    top: 25px;
+    font-size: 10px;
+    margin-left: 150px;
+}
+
+footer .sec4 .contact .two{
+    /* padding-right: 50px; */
+    margin-top: 20px;
+}
+footer .sec4 .contact .store .two .small{
+    position: absolute;
+    left:150px;
+    top: 27px;
+}
+footer .sec4 .contact .store .two p{
+    color: blueviolet;
+    position: absolute;
+    /* left: -110px; */
+    top: 25px;
+    left: 28px;
+    font-size: 10px;
+    margin-left: 150px;
+}
+footer .sec4 .contact .store span{
+    font-size: 15px;
+    /* margin-top: 50x; */
+}
+footer .sec4 .contact .store .social{
+    position: absolute;
+    left:0px; 
+    top: 80px;
+    margin-top: 20px;
+}
+footer .sec4 .contact .store .social img{
+    padding-right: 10px;
+    /* width: 40px; */
+}
+footer .sec4 .contact .store .navbar{
+    position: absolute;
+    top: 140px;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-top: 25px;
+}
+
+footer .sec4 .contact .store .navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: .5s;
+}
+
+footer .sec4 .contact .store .navbar a:hover{
+    color: blueviolet;
+}
+
+footer .sec4 .person{
+    position: relative;
+    top: 121px;
+    /* display: flex;
+    align-items: flex-end; */
+}
+footer .sec4 .person img{
+    position: absolute;
+    left: -740px;
+    /* top: 4px; */
+    top: 23px;
+}
